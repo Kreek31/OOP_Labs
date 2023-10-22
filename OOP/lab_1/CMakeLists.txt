@@ -1,7 +1,0 @@
-add_subdirectory(googletest)
-include_directories(lib)
-add_library(function lib_init/function.cpp)
-add_executable(main main.cpp)
-add_executable(test1 tests/test1.cpp)
-target_link_libraries(main gtest_main function)
-target_link_libraries(test1 gtest_main function)
