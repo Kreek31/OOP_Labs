@@ -1,4 +1,4 @@
-# Install script for directory: /home/vm/OOP/lab_1/lib
+# Install script for directory: /home/vm/OOP_Labs/lab_1/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

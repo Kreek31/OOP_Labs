@@ -1,0 +1,2 @@
+/usr/bin/ar qc libclass.a CMakeFiles/class.dir/lib_init/Twelve.o
+/usr/bin/ranlib libclass.a
