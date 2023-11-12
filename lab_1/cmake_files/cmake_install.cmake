@@ -1,4 +1,4 @@
-# Install script for directory: /home/vm/OOP/lab_1
+# Install script for directory: /home/vm/OOP_Labs/lab_1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/vm/OOP/lab_1/cmake_files/googletest/cmake_install.cmake")
+  include("/home/vm/OOP_Labs/lab_1/cmake_files/googletest/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vm/OOP/lab_1/cmake_files/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vm/OOP_Labs/lab_1/cmake_files/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

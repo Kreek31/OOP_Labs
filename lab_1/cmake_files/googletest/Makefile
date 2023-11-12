@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vm/OOP/lab_1
+CMAKE_SOURCE_DIR = /home/vm/OOP_Labs/lab_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vm/OOP/lab_1/cmake_files
+CMAKE_BINARY_DIR = /home/vm/OOP_Labs/lab_1/cmake_files
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vm/OOP/lab_1/cmake_files && $(CMAKE_COMMAND) -E cmake_progress_start /home/vm/OOP/lab_1/cmake_files/CMakeFiles /home/vm/OOP/lab_1/cmake_files/googletest//CMakeFiles/progress.marks
-	cd /home/vm/OOP/lab_1/cmake_files && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vm/OOP/lab_1/cmake_files/CMakeFiles 0
+	cd /home/vm/OOP_Labs/lab_1/cmake_files && $(CMAKE_COMMAND) -E cmake_progress_start /home/vm/OOP_Labs/lab_1/cmake_files/CMakeFiles /home/vm/OOP_Labs/lab_1/cmake_files/googletest//CMakeFiles/progress.marks
+	cd /home/vm/OOP_Labs/lab_1/cmake_files && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vm/OOP_Labs/lab_1/cmake_files/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vm/OOP/lab_1/cmake_files && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/clean
+	cd /home/vm/OOP_Labs/lab_1/cmake_files && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vm/OOP/lab_1/cmake_files && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/preinstall
+	cd /home/vm/OOP_Labs/lab_1/cmake_files && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vm/OOP/lab_1/cmake_files && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/preinstall
+	cd /home/vm/OOP_Labs/lab_1/cmake_files && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vm/OOP/lab_1/cmake_files && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vm/OOP_Labs/lab_1/cmake_files && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vm/OOP/lab_1/cmake_files && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vm/OOP_Labs/lab_1/cmake_files && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

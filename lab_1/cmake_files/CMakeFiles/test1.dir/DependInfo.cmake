@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vm/OOP/lab_1/tests/test1.cpp" "CMakeFiles/test1.dir/tests/test1.o" "gcc" "CMakeFiles/test1.dir/tests/test1.o.d"
+  "/home/vm/OOP_Labs/lab_1/tests/test1.cpp" "CMakeFiles/test1.dir/tests/test1.o" "gcc" "CMakeFiles/test1.dir/tests/test1.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/vm/OOP/lab_1/cmake_files/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/vm/OOP/lab_1/cmake_files/CMakeFiles/function.dir/DependInfo.cmake"
-  "/home/vm/OOP/lab_1/cmake_files/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/vm/OOP_Labs/lab_1/cmake_files/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/vm/OOP_Labs/lab_1/cmake_files/CMakeFiles/function.dir/DependInfo.cmake"
+  "/home/vm/OOP_Labs/lab_1/cmake_files/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

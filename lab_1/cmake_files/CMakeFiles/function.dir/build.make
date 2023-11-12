@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vm/OOP/lab_1
+CMAKE_SOURCE_DIR = /home/vm/OOP_Labs/lab_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vm/OOP/lab_1/cmake_files
+CMAKE_BINARY_DIR = /home/vm/OOP_Labs/lab_1/cmake_files
 
 # Include any dependencies generated for this target.
 include CMakeFiles/function.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/function.dir/flags.make
 CMakeFiles/function.dir/lib_init/function.o: CMakeFiles/function.dir/flags.make
 CMakeFiles/function.dir/lib_init/function.o: ../lib_init/function.cpp
 CMakeFiles/function.dir/lib_init/function.o: CMakeFiles/function.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vm/OOP/lab_1/cmake_files/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/function.dir/lib_init/function.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/function.dir/lib_init/function.o -MF CMakeFiles/function.dir/lib_init/function.o.d -o CMakeFiles/function.dir/lib_init/function.o -c /home/vm/OOP/lab_1/lib_init/function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vm/OOP_Labs/lab_1/cmake_files/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/function.dir/lib_init/function.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/function.dir/lib_init/function.o -MF CMakeFiles/function.dir/lib_init/function.o.d -o CMakeFiles/function.dir/lib_init/function.o -c /home/vm/OOP_Labs/lab_1/lib_init/function.cpp
 
 CMakeFiles/function.dir/lib_init/function.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/function.dir/lib_init/function.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vm/OOP/lab_1/lib_init/function.cpp > CMakeFiles/function.dir/lib_init/function.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vm/OOP_Labs/lab_1/lib_init/function.cpp > CMakeFiles/function.dir/lib_init/function.i
 
 CMakeFiles/function.dir/lib_init/function.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/function.dir/lib_init/function.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vm/OOP/lab_1/lib_init/function.cpp -o CMakeFiles/function.dir/lib_init/function.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vm/OOP_Labs/lab_1/lib_init/function.cpp -o CMakeFiles/function.dir/lib_init/function.s
 
 # Object files for target function
 function_OBJECTS = \
@@ -93,7 +93,7 @@ function_EXTERNAL_OBJECTS =
 libfunction.a: CMakeFiles/function.dir/lib_init/function.o
 libfunction.a: CMakeFiles/function.dir/build.make
 libfunction.a: CMakeFiles/function.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vm/OOP/lab_1/cmake_files/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libfunction.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vm/OOP_Labs/lab_1/cmake_files/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libfunction.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/function.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/function.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/function.dir/clean:
 .PHONY : CMakeFiles/function.dir/clean
 
 CMakeFiles/function.dir/depend:
-	cd /home/vm/OOP/lab_1/cmake_files && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vm/OOP/lab_1 /home/vm/OOP/lab_1 /home/vm/OOP/lab_1/cmake_files /home/vm/OOP/lab_1/cmake_files /home/vm/OOP/lab_1/cmake_files/CMakeFiles/function.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vm/OOP_Labs/lab_1/cmake_files && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vm/OOP_Labs/lab_1 /home/vm/OOP_Labs/lab_1 /home/vm/OOP_Labs/lab_1/cmake_files /home/vm/OOP_Labs/lab_1/cmake_files /home/vm/OOP_Labs/lab_1/cmake_files/CMakeFiles/function.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/function.dir/depend
 
