@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/area.dir/tests/area.o -o area  libfigures.a lib/libgtest_main.a lib/libgtest.a 
