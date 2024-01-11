@@ -1,5 +1,5 @@
 CMakeFiles/function.dir/lib_init/function.o: \
- /home/vm/OOP/lab_1/lib_init/function.cpp /usr/include/stdc-predef.h \
+ /home/vm/OOP_Labs/lab_1/lib_init/function.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
