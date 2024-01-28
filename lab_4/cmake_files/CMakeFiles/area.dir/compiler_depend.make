@@ -362,8 +362,11 @@ CMakeFiles/area.dir/tests/area.o: ../tests/area.cpp \
   /usr/include/c++/11/tr1/modified_bessel_func.tcc \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  ../lib/figure_init.cpp
 
+
+../lib/figure_init.cpp:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 

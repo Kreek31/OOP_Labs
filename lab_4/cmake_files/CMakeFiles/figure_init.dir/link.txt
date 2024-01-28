@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfigure_init.a CMakeFiles/figure_init.dir/lib/figure_init.o
+/usr/bin/ranlib libfigure_init.a

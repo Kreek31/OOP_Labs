@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/main.dir/main.o -o main   -L/home/vm/OOP_Labs/lab_4/cmake_files  libfigure_init.a libfigures.a -larray 
