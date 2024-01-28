@@ -4,10 +4,6 @@
 
 using namespace std;
 
-TEST(test_case, name){
-	ASSERT_EQ(1, 1) << "1 not 0";
-}
-
 int main(){
 	char string[100];
 	int result;
