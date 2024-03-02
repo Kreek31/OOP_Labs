@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfactory.a CMakeFiles/factory.dir/lib/factory.o
+/usr/bin/ranlib libfactory.a

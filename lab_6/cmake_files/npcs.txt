@@ -1,0 +1,4 @@
+Squirrel 20 BigSquirrel1 0 0 40
+Squirrel 5 SmallSquirrel2 0 0 20
+Elf 30 SuperElf1 0 0 60
+Rouge 10 Assasin1 0 0 50

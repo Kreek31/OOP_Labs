@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/btest.dir/tests/battle_test.o -o btest  libfunctions.a libfactory.a libmainlib.a lib/libgtest_main.a lib/libgtest.a 

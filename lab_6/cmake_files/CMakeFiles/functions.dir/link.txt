@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfunctions.a CMakeFiles/functions.dir/lib/file_functions.o
+/usr/bin/ranlib libfunctions.a
