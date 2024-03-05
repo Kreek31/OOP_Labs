@@ -11,7 +11,7 @@ int main(){
 	std::string name;
 	std::string command;
 	
-	std::cout << "Print mas length aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" << std::endl;
+	std::cout << "Print mas length" << std::endl;
 	std::cin >> length;
 	
 	
@@ -22,11 +22,11 @@ int main(){
 		std::cout << "Print figure name" << std::endl;
 		std::cin >> name;
 		if(name == "octagon"){
-			array[i] = std::make_shared<Octagon<float>>();
+			array[i] = std::make_shared<Octagon<>>();
 		} else if(name == "square"){
-			array[i] = std::make_shared<Square<float>>();
+			array[i] = std::make_shared<Square<>>();
 		} else if(name == "triangle"){
-			array[i] = std::make_shared<Triangle<float>>();
+			array[i] = std::make_shared<Triangle<>>();
 		} else {
 			std::cout << "wrong figure name" << std::endl;
 			return 0;
@@ -55,11 +55,11 @@ int main(){
 					}
 				}
 				if(name == "octagon"){
-					array[index] = std::make_shared<Octagon<float>>();
+					array[index] = std::make_shared<Octagon<>>();
 				} else if(name == "square"){
-					array[index] = std::make_shared<Square<float>>();
+					array[index] = std::make_shared<Square<>>();
 				} else if(name == "triangle"){
-					array[index] = std::make_shared<Triangle<float>>();
+					array[index] = std::make_shared<Triangle<>>();
 				} else {
 					std::cout << "wrong figure name" << std::endl;
 					return 0;
@@ -96,24 +96,4 @@ int main(){
 			}
 		}
 	} while (command != "0");
-	/*
-	Octagon oct;
-	//oct >> std::cin;
-	oct << std::cout;
-	double s = oct;
-	std::cout << s << std::endl;
-	*/
-	
-	/*
-	Triangle tri;
-	tri << std::cout;
-	double s = tri;
-	std::cout << s << std::endl;
-	*/
-	/*
-	Figure* sqr{new Square};
-	*sqr << std::cout;
-	double s = *sqr;
-	std::cout << s << std::endl;
-	*/
 }
