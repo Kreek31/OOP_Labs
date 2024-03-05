@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lab_07.dir/main.cpp.o CMakeFiles/lab_07.dir/npc.cpp.o CMakeFiles/lab_07.dir/knight.cpp.o CMakeFiles/lab_07.dir/dragon.cpp.o CMakeFiles/lab_07.dir/black_knight.cpp.o -o lab_07 

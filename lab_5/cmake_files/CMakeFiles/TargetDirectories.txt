@@ -1,0 +1,5 @@
+/home/vm/OOP_Labs/lab_5/cmake_files/CMakeFiles/alloc.dir
+/home/vm/OOP_Labs/lab_5/cmake_files/CMakeFiles/queue.dir
+/home/vm/OOP_Labs/lab_5/cmake_files/CMakeFiles/main.dir
+/home/vm/OOP_Labs/lab_5/cmake_files/CMakeFiles/edit_cache.dir
+/home/vm/OOP_Labs/lab_5/cmake_files/CMakeFiles/rebuild_cache.dir

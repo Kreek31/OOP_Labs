@@ -1,0 +1,5 @@
+include_directories(lib)
+add_library(alloc lib/allocator.cpp)
+add_library(queue lib/Queue.cpp)
+add_executable(main main.cpp)
+target_link_libraries(main alloc queue)

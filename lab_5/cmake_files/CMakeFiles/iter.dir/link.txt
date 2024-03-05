@@ -1,0 +1,2 @@
+/usr/bin/ar qc libiter.a CMakeFiles/iter.dir/lib/iterator.o
+/usr/bin/ranlib libiter.a
