@@ -129,77 +129,77 @@ lab_07/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/build
 .PHONY : lab_07/fast
 
-black_knight.o: black_knight.cpp.o
-.PHONY : black_knight.o
+Elf.o: Elf.cpp.o
+.PHONY : Elf.o
 
 # target to build an object file
-black_knight.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/black_knight.cpp.o
-.PHONY : black_knight.cpp.o
+Elf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/Elf.cpp.o
+.PHONY : Elf.cpp.o
 
-black_knight.i: black_knight.cpp.i
-.PHONY : black_knight.i
+Elf.i: Elf.cpp.i
+.PHONY : Elf.i
 
 # target to preprocess a source file
-black_knight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/black_knight.cpp.i
-.PHONY : black_knight.cpp.i
+Elf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/Elf.cpp.i
+.PHONY : Elf.cpp.i
 
-black_knight.s: black_knight.cpp.s
-.PHONY : black_knight.s
+Elf.s: Elf.cpp.s
+.PHONY : Elf.s
 
 # target to generate assembly for a file
-black_knight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/black_knight.cpp.s
-.PHONY : black_knight.cpp.s
+Elf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/Elf.cpp.s
+.PHONY : Elf.cpp.s
 
-dragon.o: dragon.cpp.o
-.PHONY : dragon.o
+Rouge.o: Rouge.cpp.o
+.PHONY : Rouge.o
 
 # target to build an object file
-dragon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/dragon.cpp.o
-.PHONY : dragon.cpp.o
+Rouge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/Rouge.cpp.o
+.PHONY : Rouge.cpp.o
 
-dragon.i: dragon.cpp.i
-.PHONY : dragon.i
+Rouge.i: Rouge.cpp.i
+.PHONY : Rouge.i
 
 # target to preprocess a source file
-dragon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/dragon.cpp.i
-.PHONY : dragon.cpp.i
+Rouge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/Rouge.cpp.i
+.PHONY : Rouge.cpp.i
 
-dragon.s: dragon.cpp.s
-.PHONY : dragon.s
+Rouge.s: Rouge.cpp.s
+.PHONY : Rouge.s
 
 # target to generate assembly for a file
-dragon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/dragon.cpp.s
-.PHONY : dragon.cpp.s
+Rouge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/Rouge.cpp.s
+.PHONY : Rouge.cpp.s
 
-knight.o: knight.cpp.o
-.PHONY : knight.o
+Squirrel.o: Squirrel.cpp.o
+.PHONY : Squirrel.o
 
 # target to build an object file
-knight.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/knight.cpp.o
-.PHONY : knight.cpp.o
+Squirrel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/Squirrel.cpp.o
+.PHONY : Squirrel.cpp.o
 
-knight.i: knight.cpp.i
-.PHONY : knight.i
+Squirrel.i: Squirrel.cpp.i
+.PHONY : Squirrel.i
 
 # target to preprocess a source file
-knight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/knight.cpp.i
-.PHONY : knight.cpp.i
+Squirrel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/Squirrel.cpp.i
+.PHONY : Squirrel.cpp.i
 
-knight.s: knight.cpp.s
-.PHONY : knight.s
+Squirrel.s: Squirrel.cpp.s
+.PHONY : Squirrel.s
 
 # target to generate assembly for a file
-knight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/knight.cpp.s
-.PHONY : knight.cpp.s
+Squirrel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_07.dir/build.make CMakeFiles/lab_07.dir/Squirrel.cpp.s
+.PHONY : Squirrel.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -258,15 +258,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab_07"
-	@echo "... black_knight.o"
-	@echo "... black_knight.i"
-	@echo "... black_knight.s"
-	@echo "... dragon.o"
-	@echo "... dragon.i"
-	@echo "... dragon.s"
-	@echo "... knight.o"
-	@echo "... knight.i"
-	@echo "... knight.s"
+	@echo "... Elf.o"
+	@echo "... Elf.i"
+	@echo "... Elf.s"
+	@echo "... Rouge.o"
+	@echo "... Rouge.i"
+	@echo "... Rouge.s"
+	@echo "... Squirrel.o"
+	@echo "... Squirrel.i"
+	@echo "... Squirrel.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

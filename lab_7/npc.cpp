@@ -1,7 +1,7 @@
 #include "npc.h"
 
-NPC::NPC(NpcType t, int _x, int _y) : type(t), x(_x), y(_y) {}
-NPC::NPC(NpcType t, std::istream &is) : type(t)
+NPC::NPC(NpcType t, int _x, int _y, size_t _distance) : type(t), x(_x), y(_y), distance(_distance){}
+NPC::NPC(NpcType t, std::istream &is, size_t _distance) : type(t), distance(_distance)
 {
     is >> x;
     is >> y;
@@ -18,12 +18,12 @@ void NPC::fight_notify(const std::shared_ptr<NPC> defender, bool win)
         o->on_fight(std::shared_ptr<NPC>(this, [](NPC *) {}), defender, win);
 }
 
-bool NPC::is_close(const std::shared_ptr<NPC> &other, size_t distance)
+bool NPC::is_close(const std::shared_ptr<NPC> &other)
 {
     auto [other_x, other_y] = other->position();
 
     std::lock_guard<std::mutex> lck(mtx);
-    if ((std::pow(x - other_x, 2) + std::pow(y - other_y, 2)) <= std::pow(distance, 2))
+    if ((std::pow(x - other_x, 2) + std::pow(y - other_y, 2)) <= std::pow(this->distance, 2))
         return true;
     else
         return false;

@@ -244,4 +244,4 @@ CMakeFiles/lab_07.dir/knight.cpp.o: /home/vm/OOP_Labs/lab_7/knight.cpp \
  /usr/include/c++/11/shared_mutex /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/vm/OOP_Labs/lab_7/black_knight.h /home/vm/OOP_Labs/lab_7/dragon.h
+ /home/vm/OOP_Labs/lab_7/Squirrel.h /home/vm/OOP_Labs/lab_7/dragon.h

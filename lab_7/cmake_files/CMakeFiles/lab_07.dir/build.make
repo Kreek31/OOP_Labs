@@ -97,64 +97,64 @@ CMakeFiles/lab_07.dir/npc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_07.dir/npc.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vm/OOP_Labs/lab_7/npc.cpp -o CMakeFiles/lab_07.dir/npc.cpp.s
 
-CMakeFiles/lab_07.dir/knight.cpp.o: CMakeFiles/lab_07.dir/flags.make
-CMakeFiles/lab_07.dir/knight.cpp.o: ../knight.cpp
-CMakeFiles/lab_07.dir/knight.cpp.o: CMakeFiles/lab_07.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vm/OOP_Labs/lab_7/cmake_files/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab_07.dir/knight.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_07.dir/knight.cpp.o -MF CMakeFiles/lab_07.dir/knight.cpp.o.d -o CMakeFiles/lab_07.dir/knight.cpp.o -c /home/vm/OOP_Labs/lab_7/knight.cpp
+CMakeFiles/lab_07.dir/Elf.cpp.o: CMakeFiles/lab_07.dir/flags.make
+CMakeFiles/lab_07.dir/Elf.cpp.o: ../Elf.cpp
+CMakeFiles/lab_07.dir/Elf.cpp.o: CMakeFiles/lab_07.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vm/OOP_Labs/lab_7/cmake_files/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab_07.dir/Elf.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_07.dir/Elf.cpp.o -MF CMakeFiles/lab_07.dir/Elf.cpp.o.d -o CMakeFiles/lab_07.dir/Elf.cpp.o -c /home/vm/OOP_Labs/lab_7/Elf.cpp
 
-CMakeFiles/lab_07.dir/knight.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_07.dir/knight.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vm/OOP_Labs/lab_7/knight.cpp > CMakeFiles/lab_07.dir/knight.cpp.i
+CMakeFiles/lab_07.dir/Elf.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_07.dir/Elf.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vm/OOP_Labs/lab_7/Elf.cpp > CMakeFiles/lab_07.dir/Elf.cpp.i
 
-CMakeFiles/lab_07.dir/knight.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_07.dir/knight.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vm/OOP_Labs/lab_7/knight.cpp -o CMakeFiles/lab_07.dir/knight.cpp.s
+CMakeFiles/lab_07.dir/Elf.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_07.dir/Elf.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vm/OOP_Labs/lab_7/Elf.cpp -o CMakeFiles/lab_07.dir/Elf.cpp.s
 
-CMakeFiles/lab_07.dir/dragon.cpp.o: CMakeFiles/lab_07.dir/flags.make
-CMakeFiles/lab_07.dir/dragon.cpp.o: ../dragon.cpp
-CMakeFiles/lab_07.dir/dragon.cpp.o: CMakeFiles/lab_07.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vm/OOP_Labs/lab_7/cmake_files/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab_07.dir/dragon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_07.dir/dragon.cpp.o -MF CMakeFiles/lab_07.dir/dragon.cpp.o.d -o CMakeFiles/lab_07.dir/dragon.cpp.o -c /home/vm/OOP_Labs/lab_7/dragon.cpp
+CMakeFiles/lab_07.dir/Rouge.cpp.o: CMakeFiles/lab_07.dir/flags.make
+CMakeFiles/lab_07.dir/Rouge.cpp.o: ../Rouge.cpp
+CMakeFiles/lab_07.dir/Rouge.cpp.o: CMakeFiles/lab_07.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vm/OOP_Labs/lab_7/cmake_files/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab_07.dir/Rouge.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_07.dir/Rouge.cpp.o -MF CMakeFiles/lab_07.dir/Rouge.cpp.o.d -o CMakeFiles/lab_07.dir/Rouge.cpp.o -c /home/vm/OOP_Labs/lab_7/Rouge.cpp
 
-CMakeFiles/lab_07.dir/dragon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_07.dir/dragon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vm/OOP_Labs/lab_7/dragon.cpp > CMakeFiles/lab_07.dir/dragon.cpp.i
+CMakeFiles/lab_07.dir/Rouge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_07.dir/Rouge.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vm/OOP_Labs/lab_7/Rouge.cpp > CMakeFiles/lab_07.dir/Rouge.cpp.i
 
-CMakeFiles/lab_07.dir/dragon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_07.dir/dragon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vm/OOP_Labs/lab_7/dragon.cpp -o CMakeFiles/lab_07.dir/dragon.cpp.s
+CMakeFiles/lab_07.dir/Rouge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_07.dir/Rouge.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vm/OOP_Labs/lab_7/Rouge.cpp -o CMakeFiles/lab_07.dir/Rouge.cpp.s
 
-CMakeFiles/lab_07.dir/black_knight.cpp.o: CMakeFiles/lab_07.dir/flags.make
-CMakeFiles/lab_07.dir/black_knight.cpp.o: ../black_knight.cpp
-CMakeFiles/lab_07.dir/black_knight.cpp.o: CMakeFiles/lab_07.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vm/OOP_Labs/lab_7/cmake_files/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab_07.dir/black_knight.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_07.dir/black_knight.cpp.o -MF CMakeFiles/lab_07.dir/black_knight.cpp.o.d -o CMakeFiles/lab_07.dir/black_knight.cpp.o -c /home/vm/OOP_Labs/lab_7/black_knight.cpp
+CMakeFiles/lab_07.dir/Squirrel.cpp.o: CMakeFiles/lab_07.dir/flags.make
+CMakeFiles/lab_07.dir/Squirrel.cpp.o: ../Squirrel.cpp
+CMakeFiles/lab_07.dir/Squirrel.cpp.o: CMakeFiles/lab_07.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vm/OOP_Labs/lab_7/cmake_files/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab_07.dir/Squirrel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_07.dir/Squirrel.cpp.o -MF CMakeFiles/lab_07.dir/Squirrel.cpp.o.d -o CMakeFiles/lab_07.dir/Squirrel.cpp.o -c /home/vm/OOP_Labs/lab_7/Squirrel.cpp
 
-CMakeFiles/lab_07.dir/black_knight.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_07.dir/black_knight.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vm/OOP_Labs/lab_7/black_knight.cpp > CMakeFiles/lab_07.dir/black_knight.cpp.i
+CMakeFiles/lab_07.dir/Squirrel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_07.dir/Squirrel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vm/OOP_Labs/lab_7/Squirrel.cpp > CMakeFiles/lab_07.dir/Squirrel.cpp.i
 
-CMakeFiles/lab_07.dir/black_knight.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_07.dir/black_knight.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vm/OOP_Labs/lab_7/black_knight.cpp -o CMakeFiles/lab_07.dir/black_knight.cpp.s
+CMakeFiles/lab_07.dir/Squirrel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_07.dir/Squirrel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vm/OOP_Labs/lab_7/Squirrel.cpp -o CMakeFiles/lab_07.dir/Squirrel.cpp.s
 
 # Object files for target lab_07
 lab_07_OBJECTS = \
 "CMakeFiles/lab_07.dir/main.cpp.o" \
 "CMakeFiles/lab_07.dir/npc.cpp.o" \
-"CMakeFiles/lab_07.dir/knight.cpp.o" \
-"CMakeFiles/lab_07.dir/dragon.cpp.o" \
-"CMakeFiles/lab_07.dir/black_knight.cpp.o"
+"CMakeFiles/lab_07.dir/Elf.cpp.o" \
+"CMakeFiles/lab_07.dir/Rouge.cpp.o" \
+"CMakeFiles/lab_07.dir/Squirrel.cpp.o"
 
 # External object files for target lab_07
 lab_07_EXTERNAL_OBJECTS =
 
 lab_07: CMakeFiles/lab_07.dir/main.cpp.o
 lab_07: CMakeFiles/lab_07.dir/npc.cpp.o
-lab_07: CMakeFiles/lab_07.dir/knight.cpp.o
-lab_07: CMakeFiles/lab_07.dir/dragon.cpp.o
-lab_07: CMakeFiles/lab_07.dir/black_knight.cpp.o
+lab_07: CMakeFiles/lab_07.dir/Elf.cpp.o
+lab_07: CMakeFiles/lab_07.dir/Rouge.cpp.o
+lab_07: CMakeFiles/lab_07.dir/Squirrel.cpp.o
 lab_07: CMakeFiles/lab_07.dir/build.make
 lab_07: CMakeFiles/lab_07.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vm/OOP_Labs/lab_7/cmake_files/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lab_07"

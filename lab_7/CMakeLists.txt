@@ -5,4 +5,4 @@ project(lab_07)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(lab_07 main.cpp npc.cpp knight.cpp dragon.cpp black_knight.cpp)
+add_executable(lab_07 main.cpp npc.cpp Elf.cpp Rouge.cpp Squirrel.cpp)

@@ -12,17 +12,17 @@
 
 // type for npcs
 struct NPC;
-struct Dragon;
-struct Knight;
-struct BlackKnight;
+struct Rouge;
+struct Elf;
+struct Squirrel;
 using set_t = std::set<std::shared_ptr<NPC>>;
 
 enum NpcType
 {
     Unknown = 0,
-    DragonType = 1,
-    KnightType = 2,
-    BlackKnightType = 3
+    RougeType = 1,
+    ElfType = 2,
+    SquirrelType = 3
 };
 
 struct IFightObserver
@@ -36,6 +36,7 @@ private:
     std::mutex mtx;
 
     NpcType type;
+    size_t distance;
     int x{0};
     int y{0};
     bool alive{true};
@@ -43,18 +44,18 @@ private:
     std::vector<std::shared_ptr<IFightObserver>> observers;
 
 public:
-    NPC(NpcType t, int _x, int _y);
-    NPC(NpcType t, std::istream &is);
+    NPC(NpcType t, int _x, int _y, size_t _distance);
+    NPC(NpcType t, std::istream &is, size_t _distance);
 
     void subscribe(std::shared_ptr<IFightObserver> observer);
     void fight_notify(const std::shared_ptr<NPC> defender, bool win);
-    virtual bool is_close(const std::shared_ptr<NPC> &other, size_t distance);
+    virtual bool is_close(const std::shared_ptr<NPC> &other);
 
     virtual bool accept(std::shared_ptr<NPC> visitor) = 0;
     // visit
-    virtual bool fight(std::shared_ptr<Dragon> other) = 0;
-    virtual bool fight(std::shared_ptr<Knight> other) = 0;
-    virtual bool fight(std::shared_ptr<BlackKnight> other) = 0;
+    virtual bool fight(std::shared_ptr<Rouge> other) = 0;
+    virtual bool fight(std::shared_ptr<Elf> other) = 0;
+    virtual bool fight(std::shared_ptr<Squirrel> other) = 0;
 
     virtual void print() = 0;
     std::pair<int, int> position();

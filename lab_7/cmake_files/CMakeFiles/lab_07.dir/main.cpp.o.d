@@ -243,13 +243,12 @@ CMakeFiles/lab_07.dir/main.cpp.o: /home/vm/OOP_Labs/lab_7/main.cpp \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/math.h \
  /usr/include/c++/11/shared_mutex /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
- /usr/include/c++/11/bits/parse_numbers.h \
- /home/vm/OOP_Labs/lab_7/dragon.h /home/vm/OOP_Labs/lab_7/black_knight.h \
- /home/vm/OOP_Labs/lab_7/knight.h /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/thread \
- /usr/include/c++/11/stop_token /usr/include/c++/11/atomic \
- /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/semaphore \
- /usr/include/c++/11/bits/semaphore_base.h \
+ /usr/include/c++/11/bits/parse_numbers.h /home/vm/OOP_Labs/lab_7/Rouge.h \
+ /home/vm/OOP_Labs/lab_7/Squirrel.h /home/vm/OOP_Labs/lab_7/Elf.h \
+ /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
+ /usr/include/c++/11/thread /usr/include/c++/11/stop_token \
+ /usr/include/c++/11/atomic /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/semaphore /usr/include/c++/11/bits/semaphore_base.h \
  /usr/include/c++/11/bits/atomic_timed_wait.h \
  /usr/include/c++/11/bits/this_thread_sleep.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \

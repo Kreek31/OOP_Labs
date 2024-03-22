@@ -1,7 +1,7 @@
 #include "npc.h"
-#include "dragon.h"
-#include "black_knight.h"
-#include "knight.h"
+#include "Rouge.h"
+#include "Squirrel.h"
+#include "Elf.h"
 #include <sstream>
 
 #include <thread>
@@ -49,14 +49,14 @@ std::shared_ptr<NPC> factory(std::istream &is)
     {
         switch (type)
         {
-        case DragonType:
-            result = std::make_shared<Dragon>(is);
+        case RougeType:
+            result = std::make_shared<Rouge>(is);
             break;
-        case KnightType:
-            result = std::make_shared<Knight>(is);
+        case ElfType:
+            result = std::make_shared<Elf>(is);
             break;
-        case BlackKnightType:
-            result = std::make_shared<BlackKnight>(is);
+        case SquirrelType:
+            result = std::make_shared<Squirrel>(is);
             break;
         }
     }
@@ -74,14 +74,14 @@ std::shared_ptr<NPC> factory(NpcType type, int x, int y)
     std::shared_ptr<NPC> result;
     switch (type)
     {
-    case DragonType:
-        result = std::make_shared<Dragon>(x, y);
+    case RougeType:
+        result = std::make_shared<Rouge>(x, y);
         break;
-    case KnightType:
-        result = std::make_shared<Knight>(x, y);
+    case ElfType:
+        result = std::make_shared<Elf>(x, y);
         break;
-    case BlackKnightType:
-        result = std::make_shared<BlackKnight>(x, y);
+    case SquirrelType:
+        result = std::make_shared<Squirrel>(x, y);
         break;
     default:
         break;
@@ -128,14 +128,14 @@ std::ostream &operator<<(std::ostream &os, const set_t &array)
     return os;
 }
 
-set_t fight(const set_t &array, size_t distance)
+set_t fight(const set_t &array)
 {
     set_t dead_list;
 
     for (const auto &attacker : array)
         for (const auto &defender : array)
             if ((attacker != defender) &&
-                attacker->is_close(defender, distance) &&
+                attacker->is_close(defender) &&
                 defender->accept(attacker))
                 dead_list.insert(defender);
 
@@ -249,7 +249,7 @@ int main()
                         if (other != npc)
                             if (npc->is_alive())
                             if (other->is_alive())
-                            if (npc->is_close(other, DISTANCE))
+                            if (npc->is_close(other))
                                 FightManager::get().add_event({npc, other});
 
                 std::this_thread::sleep_for(50ms);
@@ -270,14 +270,14 @@ int main()
                 {
                     switch (npc->get_type())
                     {
-                    case DragonType:
-                        fields[i + grid * j] = 'D';
+                    case RougeType:
+                        fields[i + grid * j] = 'R';
                         break;
-                    case KnightType:
-                        fields[i + grid * j] = 'K';
+                    case ElfType:
+                        fields[i + grid * j] = 'E';
                         break;
-                    case BlackKnightType:
-                        fields[i + grid * j] = 'B';
+                    case SquirrelType:
+                        fields[i + grid * j] = 'S';
                         break;
 
                     default:
